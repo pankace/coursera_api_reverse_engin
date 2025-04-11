@@ -34,7 +34,7 @@ print(len(data['elements']))
 ```
 
 ### Extract Course Catalog
-
+please set the limit to the number we got from the previous step or however many you want
 ```python
 from src.course_catalog import extract_coursera_courses, convert_to_csv
 
